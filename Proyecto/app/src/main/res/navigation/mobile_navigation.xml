@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.proyecto.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/cardiView"
+        android:name="com.example.proyecto.CardiView"
+        android:label="activity_cardi_view"
+        tools:layout="@layout/activity_cardi_view" />
+    <activity
+        android:id="@+id/registrar"
+        android:name="com.example.proyecto.Registrar"
+        android:label="activity_registrar"
+        tools:layout="@layout/activity_registrar" />
+</navigation>

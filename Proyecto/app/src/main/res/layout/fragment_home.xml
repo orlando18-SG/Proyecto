@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="274dp"
+            android:src="@drawable/tienda"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="¿Quiénes Somos?"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="339dp"
+            android:layout_height="115dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:text="Somos personas como tú. Personas que trabajamos pensando en darle lo mejor a nuestra familia, porque sabemos el valor que eso tiene para ti, es que asumimos un compromiso inalterable con la calidad."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="339dp"
+            android:layout_height="220dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="3dp"
+            android:textSize="18dp"
+            android:text="Somos un equipo de profesionales jóvenes motivados a hacer las cosas bien. Creemos firmemente en nuestra gente y en su capacidad, en la promoción del talento interno en base a méritos. Somos innovadores, intrépidos y modernos, buscamos excelencia en todos nuestros procesos para poder trasladarles los beneficios de nuestro sistema a los clientes."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="339dp"
+            android:layout_height="190dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="3dp"
+            android:textSize="18dp"
+            android:text="Nuestra obsesión es darte una mejor experiencia de compra, con los mejores productos a los mejores precios, con el mejor servicio. Por eso nuestro compromiso con cada una de las familias peruanas, para poner a su alcance todo lo que pueda mejorar su calidad de vida, respondiendo a las necesidades diarias."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="339dp"
+            android:layout_height="79dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="3dp"
+            android:textSize="18dp"
+            android:text="Todos queremos pagar menos y vivir mejor. Y trabajamos para que tú lo puedas hacer todos los días."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</LinearLayout>
